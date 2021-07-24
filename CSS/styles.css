@@ -1,0 +1,294 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "-apple-system", "BlinkMacSystemFont", "Segoe UI", "Roboto",
+    "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.3rem;
+  line-height: 1.7;
+  color: #333;
+}
+
+h1 {
+  margin: 0;
+}
+
+#headline {
+  margin: 60px 0;
+  text-align: center;
+}
+
+img {
+  width: 95%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+
+ul {
+  max-width: 800px;
+  margin: 0 auto 50px 20%;
+  text-align: left;
+  line-height: 1.6;
+}
+
+li {
+  width: 750px;
+  margin: 17px 0;
+}
+
+figure {
+  background: white;
+  padding: 10px;
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 1.3rem;
+  line-height: 3;
+  text-align: center;
+  color: #333;
+}
+
+.top-div-contener {
+  margin: 0;
+  padding: 0;
+  background-color: #1e1f26;
+  height: 13%;
+  width: 100%;
+  line-height: 1.1;
+  position: fixed;
+  top: 0;
+  font-family: "Lato", Sans-Serif;
+}
+
+#top-title {
+  margin-left: 75px;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+}
+
+#sub-top-title {
+  margin-left: 75px;
+  text-decoration: none;
+  color: #9b9dad;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+#sub-top-title:hover {
+  margin-left: 75px;
+  text-decoration: none;
+  color: #eee;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+#top-logo {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 20%;
+  padding-left: 8px;
+  line-height: 1;
+}
+
+#bt-follow {
+  background-color: #47cf73;
+  font-size: 14px;
+  font-weight: 400px;
+  border-radius: 2px;
+  border-width: 0px;
+  height: 20px;
+  width: 70px;
+  position: relative;
+  bottom: 1px;
+}
+
+#bt-follow:hover {
+  background-color: #18a344;
+  color: white;
+  font-size: 14px;
+  border-radius: 2px;
+  border-width: 0px;
+  height: 20px;
+  width: 70px;
+  position: relative;
+  bottom: 1px;
+}
+
+#follow-img {
+  width: 15px;
+  height: 15px;
+  align-items: center;
+}
+
+#bt-user {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 50px;
+  height: 50px;
+  border-width: 0px;
+  border-radius: 5px;
+}
+
+#arrow-img {
+  width: 15px;
+  height: 15px;
+  align-items: top;
+}
+
+#bt-arrow {
+  background-color: #444857;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 10px;
+  right: 70px;
+  width: 25px;
+  height: 50px;
+  border-width: 0px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+#bt-arrow:hover {
+  background-color: #72747e;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 10px;
+  right: 70px;
+  width: 25px;
+  height: 50px;
+  border-width: 0px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+#bt-pin {
+  background-color: #444857;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 10px;
+  right: 100px;
+  width: 50px;
+  height: 50px;
+  border-width: 0px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+#bt-pin:hover {
+  background-color: #72747e;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 10px;
+  right: 100px;
+  width: 50px;
+  height: 50px;
+  border-width: 0px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+#pin-img {
+  width: 25px;
+  height: 25px;
+}
+
+#bt-view {
+  background-color: #444857;
+  color: white;
+  font-weight: 500px;
+  font-size: 16px;
+  margin: 0;
+  padding-right: 25px;
+  padding-left: 25px;
+  position: absolute;
+  top: 10px;
+  right: 160px;
+  width: 180px;
+  height: 50px;
+  border-width: 0px;
+  border-radius: 5px;
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+}
+#bt-view:hover {
+  background-color: #72747e;
+  color: white;
+  font-weight: 500px;
+  font-size: 16px;
+  margin: 0;
+  padding-right: 25px;
+  padding-left: 25px;
+  position: absolute;
+  top: 10px;
+  right: 160px;
+  width: 180px;
+  height: 50px;
+  border-width: 0px;
+  border-radius: 5px;
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+}
+
+#view-img {
+  width: 25px;
+  height: 25px;
+  float: left;
+}
+
+#bt-love {
+  background-color: #444857;
+  margin: 0;
+  position: absolute;
+  top: 10px;
+  right: 350px;
+  width: 50px;
+  height: 50px;
+  border-width: 0px;
+  border-radius: 5px;
+  align-items: center;
+}
+#bt-love:hover {
+  background-color: #72747e;
+  margin: 0;
+  position: absolute;
+  top: 10px;
+  right: 350px;
+  width: 50px;
+  height: 50px;
+  border-width: 0px;
+  border-radius: 5px;
+  align-items: center;
+}
+#love-img {
+  width: 25px;
+  height: 25px;
+}
+
+#title {
+  text-align: center;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  text-align: center;
+  color: #333;
+}
+
+.main-div {
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 15px;
+  margin-top: 9%;
+  margin-right: 10px;
+  margin-bottom: 5%;
+  margin-left: 13px;
+  text-align: center;
+}
